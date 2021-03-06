@@ -4,48 +4,285 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First app</title>
+    <title>CV</title>
     <link href="./main.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div class="top-container">
-        <div>
-            <img src="./IMG_4940111111.jpg" alt="photo">
-        </div>
-        <div class="general-info">
-            <h1 id="myself-name">Natallia Karastsialiova</h1>
-            <h2 id="myself-email">nats03121998@mail.ru</h2>
-            <h2 id="myself-phone">+375444726669</h2>
-        </div>
-    </div>
-    <div class="bottom-container">
-        <h1>Experience</h1>
-        <h2>SAP Hybris C4C Developer </h2>
-        <p>
-            December 2018 – Present	
-            <br>
-            Atlantconsult, Minsk, Republic of Belarus
-        </p>
-        <ul>
-            <li>Developing business objects, web services, data sources (joined, combined);</li>
-            <li>Enhancing standard business objects and screens (Activity, BusinessPartner, Campaign, Customer, CustomerQuote, Lead, Material, Opportunity, OrganisationalUnit, Promotion,  ServiceRequest, TargetGroup);</li>
-            <li>Custom business logic implementation using ABSL scripting language (including reuse libraries);</li>
-            <li>Code performance improvement;</li>
-            <li>Creating UI: screens (OBN an Thing-Based, OVS, EC), pop-up windows, modal dialogs, UI switches, UI scripting;</li>
-            <li>Notification creation: standard (notifications in C4C system) and custom (sending SMS and emails using ABSL and integration with external APIs);</li>
-            <li>Mass Data Runs development for customer purposes;</li>
-            <li>Development of custom segmentation module (for finding customers by parameters from created business objects and creating target groups);</li>
-            <li>Implementation access control context for created business objects;</li>
-            <li>Creation of PDF forms using Adobe LiveCycle Designer;</li>
-            <li>Debugging, tracing and problem-solving (scripts, screens, web services);</li>
-            <li>Mashups configuration;</li>
-            <li>Solution translation;</li>
-            <li>Solution architecture design;</li>
-            <li>Integration with external APIs (using WSID and communication scenarios);</li>
-            <li>Preparation solution for transport (BAC element), assembly and transport solution to production tenant;</li>
-            <li>Support of solutions;</li>
-            <li>Development consulting.</li>
-        </ul>
+    <main class="content">
+        <aside id="first-column">
+            <figure>
+                <img id="personal-photo" src="./photo.jpg" alt="Personal photo">
+            </figure>
+            <article id="contacts">
+                <h2 class="titles">Contact</h2>
+                <figure class="info-form white-font">
+                    <div class="info-block">
+                        <h5>Phone</h5>
+                        <h6>+375444726669</h6>
+                    </div>
+                    <div class="info-block">
+                        <h5>Email</h5>
+                        <h6>n.karasteleva98@gmail.com</h6>
+                    </div>
+                    <div class="info-block">
+                        <h5>Address</h5>
+                        <h6>Voronyanskogo 11-24,<br>Minsk, 222037</h6>
+                    </div>
+                </figure>
+            </article>
+            <article id="education">
+                <h2 class="titles">Education</h2>
+                <figure class="info-form white-font">
+                    <div class="info-block">
+                        <h5>English level</h5>
+                        <h6>B1 - Intermediate</h6>
+                    </div>
+                    <div class="info-block">
+                        <h5 >2016 - 2020</h5>
+                        <h6>BNTU, FITR</h6>
+                    </div>
+                    <div class="info-block">
+                        <h5>2018</h5>
+                        <h6>LeverX Group, SAPUI5 courses</h6>
+                    </div>
+                    <div class="info-block">
+                        <h5>2021</h5>
+                        <h6>HTP, Project Management in IT courses</h6>
+                    </div>
+                </figure>
+            </article>
+        </aside>
+        <aside id="second-column">
+            <header>
+                <h1 id="name">Natallia<br>Karastsialiova</h1>
+                <h2 id="position">SAP Sales/Service Cloud Developer</h2>
+            </header>
+            <article id="profile">
+                <h2 class="titles-light">Profile</h2>
+                <figure class="info-form">
+                    <p id="profile-text">SAP C4C Hybris Developer with experience in SDK (SAP Cloud Application Studio), 
+                        development and support in cloud environment. Additional experience in integration 
+                        using Cloud Platform Integration (CPI). Excellent problem-solving and interpersonal 
+                        skills, ready to advance. Have some knowledge in CPQ.
+                    </p>
+                </figure>
+            </article>
+            <article id="experience">
+                <h2 class="titles-light">Еxperience</h2>
+                <figure class="exp-block-info">
+                    <div class="exp-block">
+                        <div class="exp-year">
+                            <h3>2021 - now</h3>
+                            <h4>LLC AtlantConsult</h4>
+                        </div>
+                        <div class="exp-position">
+                            <h3>SAP Hybris C4C Middle Consultant</h3>
+                            <p>Setting up test/production tenant for specific customer, creating BP, writing technical tasks, testing</p>
+                        </div>
+                    </div>
+                    <div class="exp-block">
+                        <div class="exp-year">
+                            <h3>2020 - now</h3>
+                            <h4>LLC AtlantConsult</h4>
+                        </div>
+                        <div class="exp-position">
+                            <h3>SAP CPI Integration Developer</h3>
+                            <p>Development of iFlows for integration of SAP Cloud for Customers with external APIs</p>
+                        </div>
+                    </div>
+                    <div class="exp-block">
+                        <div class="exp-year">
+                            <h3>2019 - now</h3>
+                            <h4>LLC AtlantConsult</h4>
+                        </div>
+                        <div class="exp-position">
+                            <h3>SAP Hybris C4C Middle Developer</h3>
+                            <p>Development custom BO, writing scripts, creating reports, print forms, enchance standart BO, enhance standart scripts</p>
+                        </div>
+                    </div>
+                    <div class="exp-block">
+                        <div class="exp-year">
+                            <h3>2018 - 2019</h3>
+                            <h4>LLC AtlantConsult</h4>
+                        </div>
+                        <div class="exp-position">
+                            <h3>SAP Hybris C4C Junior Developer</h3>
+                            <p>Development custom BO, writing scripts, creating reports</p>
+                        </div>
+                    </div>
+                </figure>
+            </article>
+            <article id="skills">
+                <h2 class="titles-light">Skills</h2>
+                <figure class="info-form">
+                    <ul id="skills-ul">
+                        <li>Developing business objects, web services, data sources (joined, combined);</li>
+                        <li>Enhancing standard business objects and screens (Activity, BusinessPartner, Campaign, Customer, CustomerQuote, Lead, Material, Opportunity, OrganisationalUnit, Promotion,  ServiceRequest, TargetGroup);</li>
+                        <li>Custom business logic implementation using ABSL scripting language (including reuse libraries);</li>
+                        <li>Code performance improvement;</li>
+                        <li>Creating UI: screens (OBN an Thing-Based, OVS, EC), pop-up windows, modal dialogs, UI switches, UI scripting;</li>
+                        <li>Notification creation: standard (notifications in C4C system) and custom (sending SMS and emails using ABSL and integration with external APIs);</li>
+                        <li>Mass Data Runs development for customer purposes;</li>
+                        <li>Development of custom segmentation module (for finding customers by parameters from created business objects and creating target groups);</li>
+                        <li>Implementation access control context for created business objects;</li>
+                        <li>Creation of PDF forms using Adobe LiveCycle Designer;</li>
+                        <li>Debugging, tracing and problem-solving (scripts, screens, web services);</li>
+                        <li>Mashups configuration;</li>
+                        <li>Solution translation;</li>
+                        <li>Solution architecture design;</li>
+                        <li>Integration with external APIs (using WSID and communication scenarios);</li>
+                        <li>Preparation solution for transport (BAC element), assembly and transport solution to production tenant;</li>
+                        <li>Support of solutions;</li>
+                        <li>Development consulting.
+                        <li>Development of iFlows for integration of SAP Cloud for Customers with external APIs;</li>
+                        <li>Tracing of iFlows and problem -solving.
+                        <li>Configuring C4C solution using KUT;</li>
+                        <li>Configuring communication systems and arrangements;</li>
+                        <li>Writing of technical specifications and developments testing;</li>
+                        <li>Scheduling of mass data runs and workflows configuring;</li>
+                        <li>Support of end-users and business roles configuring;</li>
+                        <li>Creation reports and dashboards;</li>
+                        <li>Reporting incidents;</li>
+                        <li>Creation of demo scenarios.
+                    </ul>
+                </figure>
+            </article>
+            <article id="technologies">
+                <h2 class="titles-light">Technologies</h2>
+                <div id="tech-wrap">
+                    <figure class="info-form-tech one-tech">
+                        <h3>ABSL</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>BODL</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>UI Scripts</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>Groovy</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>XSD</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>Java</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>HTML</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>CSS</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>JavaScript</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>UML</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>Python</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>C#</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                            <div class="gray-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                    <figure class="info-form-tech one-tech">
+                        <h3>SAPUI5</h3>
+                        <div class="rate">
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="yellow-circle"></div>
+                            <div class="gray-circle"></div>
+                            <div class="gray-circle"></div>
+                        </div>
+                    </figure>
+                </div>
+            </article>
+        </aside>
     </div>
 </body>
 </html>
